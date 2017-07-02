@@ -12,6 +12,7 @@
     "semantic-ui-less": "^2.2.10"
   },
   "devDependencies": {
+    "webpack": "^2.2.0",
     "css-loader": "^0.28.4",
     "extract-text-webpack-plugin": "^2.1.2",
     "file-loader": "^0.11.2",
