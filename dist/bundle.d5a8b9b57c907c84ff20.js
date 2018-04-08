@@ -6,9 +6,9 @@
 /******/ 	function __webpack_require__(moduleId) {
 /******/
 /******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId])
+/******/ 		if(installedModules[moduleId]) {
 /******/ 			return installedModules[moduleId].exports;
-/******/
+/******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = installedModules[moduleId] = {
 /******/ 			i: moduleId,
@@ -78,7 +78,12 @@
 /***/ 47:
 /***/ (function(module, exports, __webpack_require__) {
 
+// this would bundle all Semantic components
 __webpack_require__(2);
+
+// this would bundle only our selected components through our local semantic.less file
+// require("../my-semantic-theme/semantic.less");
+
 
 
 /***/ })
