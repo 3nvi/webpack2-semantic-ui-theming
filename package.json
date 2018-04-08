@@ -1,12 +1,12 @@
 {
-  "name": "test",
+  "name": "Webpack2-semantic-ui-theming",
   "version": "1.0.0",
-  "description": "",
+  "description": "A repo to showcase Semantic UI theming using webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
-  "author": "",
+  "author": "3nvi",
   "license": "ISC",
   "dependencies": {
     "semantic-ui-less": "^2.2.10"
