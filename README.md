@@ -17,7 +17,7 @@ npm install
 # Potentially make any SemanticUI changes through the "my-semantic-theme/site/" files
 
 # Run webpack in order to create a .css file with your updates
-webpack
+npm run build
 ```
 
 You can find a detailed guide on the [this article](https://medium.com/webmonkeys/webpack-2-semantic-ui-theming-a216ddf60daf)
