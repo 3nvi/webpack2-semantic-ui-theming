@@ -21,3 +21,6 @@ npm run build
 ```
 
 You can find a detailed guide on the [this article](https://medium.com/webmonkeys/webpack-2-semantic-ui-theming-a216ddf60daf)
+
+
+*If you have an issue with node >= 10.0.0, simply delete 'yarn.lock' and run `npm install` again*
